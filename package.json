@@ -1,0 +1,24 @@
+{
+  "name": "dbschema",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "devStart": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.13.6",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "moment": "^2.29.1",
+    "nodemon": "^2.0.12"
+  }
+}
